@@ -1,3 +1,4 @@
+
 import java.util.Iterator;
 
 public class JosephusSolver {
@@ -28,7 +29,8 @@ public class JosephusSolver {
 				it.previous();
 			}
 			it.remove();
+			it.previous();
 		}
-		System.out.println((Integer)it.getCurrent() + " is the last person standing.");
+		System.out.println((Integer)it.getCurrent());
 	}
 }

@@ -8,21 +8,6 @@ public class CircularList implements Iterable {
 	
 	public CircularList () {
 		this.size = 0;
-		// this.numberOfPeople = numberOfPeople;
-		// this.firstNode = new Node(numberOfPeople, null, null);
-		// this.currentNode = this.firstNode;
-		// Node previousNode = firstNode;
-		// for (int i = (numberOfPeople - 1); i >= 1; i--) {
-		// 	System.out.println("You shouldn't be here if there is only 1 person!");
-		// 	Node nodeToAdd = new Node(i, null, previousNode);
-		// 	previousNode.next = nodeToAdd;
-		// 	previousNode = nodeToAdd;
-		// }
-		// if (numberOfPeople > 1) {
-		// 	previousNode.next = fistNode;
-		// 	firstNode.previous = previousNode;
-		// }
-		
 	}
 
 	public boolean add (Object o) {
