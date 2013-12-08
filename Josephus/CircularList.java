@@ -28,13 +28,7 @@ public class CircularList implements Iterable {
 		return this.size;
 	}
 
-	public Iterator iterator () {
-		return new ObjIterator(this);
-	}
-
-	public ObjIterator objIterator () {
-		return new ObjIterator(this);
-	}
+	
 
 	public class Node {
 		private Object object;

@@ -125,7 +125,7 @@ public class MSetTester {
             a.add("mouse");
             a.add("dog");
             MSet m = new MSet(a);
-            assert m.size() == 7 && m.unique() == 5;
+            assert m.size() == 0 && m.unique() == 5;
         }
         catch ( AssertionError e ) {
             System.out.println ("Assertion error from (Collection) constructorTests()");
